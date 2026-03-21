@@ -1,2 +1,7 @@
 # nvim
-My nvim-0.11.* config.
+
+My nvim-0.12.* config.
+
+## Inspirations
+
+ - https://github.com/smnatale/nvim
