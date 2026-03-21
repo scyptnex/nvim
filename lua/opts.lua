@@ -2,7 +2,6 @@
 -- Options
 --
 
-
 -- Set leader key first
 vim.g.mapleader = " "
 
@@ -16,6 +15,7 @@ vim.opt.smartindent = true -- increase or decrease indents for me
 
 -- Visuals
 vim.opt.number = true -- line numbers
+vim.o.signcolumn = "yes" -- always show sign column
 --vim.o.relativenumber = true -- enable relative line numbers
 vim.o.incsearch = true -- in-progress-search hilighting
 vim.o.scrolloff = 4 -- don't let cursor reach bottom/top of window

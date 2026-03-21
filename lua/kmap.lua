@@ -2,7 +2,6 @@
 -- Keymaps
 --
 
-
 -- Disable Space bar since it will be used as the leader key
 vim.keymap.set({ "n", "v" }, "<leader>", "<nop>")
 
@@ -18,3 +17,7 @@ vim.keymap.set('n', '<leader>h', ':sp<CR>')
 
 -- Open parent dir
 vim.keymap.set('n', '<leader>d', ':Ex<CR>')
+
+-- Jumping around in lsp
+vim.keymap.set('n', '<leader>g', vim.lsp.buf.definition)
+vim.keymap.set('n', '<leader>f', vim.lsp.buf.references) -- also 'grr' works
