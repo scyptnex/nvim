@@ -18,6 +18,7 @@ vim.keymap.set('n', '<leader>h', ':sp<CR>')
 -- Open parent dir
 vim.keymap.set('n', '<leader>d', ':Ex<CR>')
 
--- Jumping around in lsp
+-- lsp
 vim.keymap.set('n', '<leader>g', vim.lsp.buf.definition)
 vim.keymap.set('n', '<leader>f', vim.lsp.buf.references) -- also 'grr' works
+vim.keymap.set('n', '<leader>k', vim.lsp.buf.hover) -- why 'k' though?
