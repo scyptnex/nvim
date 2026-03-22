@@ -9,6 +9,6 @@ vim.api.nvim_create_autocmd("BufWritePre", {
 -- Open diagnostics on cursor hold
 vim.api.nvim_create_autocmd("CursorHold", {
   callback = function()
-    vim.diagnostic.open_float()
+    vim.diagnostic.open_float(nil, { focusable = false })
   end
 })
