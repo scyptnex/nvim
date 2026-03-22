@@ -14,6 +14,9 @@ vim.pack.add({
     },
     -- Formatting
     {src = "https://github.com/stevearc/conform.nvim"},
+    -- Snippets
+    {src = "https://github.com/L3MON4D3/LuaSnip"},
+    {src = "https://github.com/rafamadriz/friendly-snippets"},
 })
 
 -- bamboo
