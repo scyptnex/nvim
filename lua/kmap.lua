@@ -22,3 +22,4 @@ vim.keymap.set('n', '<leader>d', ':Ex<CR>')
 vim.keymap.set('n', '<leader>g', vim.lsp.buf.definition)
 vim.keymap.set('n', '<leader>f', vim.lsp.buf.references) -- also 'grr' works
 vim.keymap.set('n', '<leader>k', vim.lsp.buf.hover) -- why 'k' though?
+vim.keymap.set('n', '<leader>x', vim.lsp.buf.code_action) -- like fiX
